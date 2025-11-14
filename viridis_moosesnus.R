@@ -2,6 +2,7 @@
 library(ggplot2)
 library(palmerpenguins)
 library(ggthemes)
+library()
 
 
 #plot some viridis penguins
@@ -14,10 +15,12 @@ ggplot(penguins, aes(x = species, y = bill_length_mm, fill = species)) +
     x = "Species",
     y = "Bill Length (mm)"
   ) +
-  theme_economist() +
+  theme_stata() +
   theme(
 
     plot.title = element_text(hjust = 0.5, face = "bold"),
     legend.position = "none"
   )
+
+
 
