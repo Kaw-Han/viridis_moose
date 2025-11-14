@@ -22,5 +22,16 @@ ggplot(penguins, aes(x = species, y = bill_length_mm, fill = species)) +
     legend.position = "none"
   )
 
+##################################################################
+# Play the lottery!
 
+evil_lottery <- function(){
+  if (runif(1) > 0.5){
+    print("You are the imp!")
+  } else{
+    print("You are the drunk!")
+  }
+}
+evil_lottery()
+#################################################################
 
