@@ -22,7 +22,7 @@ ggplot(penguins, aes(x = species, y = bill_length_mm, fill = species)) +
     legend.position = "none"
   )
 
-##################################################################
+
 # Play the lottery!
 
 evil_lottery <- function(){
